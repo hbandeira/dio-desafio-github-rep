@@ -44,5 +44,78 @@
 
   ### Tomadas de decisão e expressões
 
+  - Expressões aritméticas: utilizam operadores aritméticos e funções aritméticas envolvendo constantes e variáveis.
+  
+    Soma: +   |  Multiplicação: *  | Potenciação: ^
+
+​              Subtração: - | Divisão: /          | Porcentagem: %
+
+
+
+#### Expressões literais
+
+:arrow_right_hook: expressões com constantes e/ou variáveis, que têm como resultado valores literais. 
+
+  nome = "José da Silva"
+
+  media = (nota1+nota2+nota3+nota4)/4
+
+
+
+#### Expressões relacionais
+
+São compostas por outras expressões ou variáveis numéricas com operadores relacionais. 
+
+  Retornam valores lógicos: 
+
+<p style="color: blue; font-weight: bold;">True</p> 
+
+<p style="color: red; font-weight: bold">False</p>
+
+#### Tomadas de decisão 
+
+- Quando escrevemos programas, geralmente ocorre a necessidade de decidirmos o que fazer, dependendo de alguma condição encontrada durante a execução. 
+
+#### Concatenação
+
+- Termo usado para deignar a operação de unir conteúdo de duas strings.
+
+- Agrupamento de duas ouy mais células que, incluindo fórmulas, textos ou outras informações contidas no seu interior, dá origem a um único resultado.
+
   
 
+  var nome = "Henrique";
+
+  var sobrenome = "Bandeira";
+
+  var nomeCompleto = **nome** + " " + sobrenome;
+
+  nomeCompleto:
+
+  Output: *Henrique Bandeira*
+
+### Estrutura de repetição
+
+- Dentro da lógica de programação, é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou um contador.
+
+  <p style="text-align:center; font-weight: bold;">Principal</p>
+
+  ​                                                                                          :arrow_down:
+
+<p style="text-align: center">Inteiro: numero, limite</p>
+
+​                                                                                                 :arrow_down:
+
+<p style="text-align: center">numero=1</p>
+
+​                                                                                                :arrow_down:
+
+<p style="text-align: center">limite=10</p>
+
+​                                                                                               :arrow_down:
+
+<p style="text-align: center;">numero=limite</p> 
+
+​                                                                   False  :arrow_down:               :arrow_lower_right:True-Saída:"contagem atual: numero=numero +1
+
+ 
