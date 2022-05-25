@@ -102,19 +102,19 @@ São compostas por outras expressões ou variáveis numéricas com operadores re
 
   ​                                                                                          :arrow_down:
 
-<p style="text-align: center">Inteiro: numero, limite</p>
+<p style="text-align:center">Inteiro: numero, limite</p>
 
 ​                                                                                                 :arrow_down:
 
-<p style="text-align: center">numero=1</p>
+<p style="text-align:center">numero=1</p>
 
 ​                                                                                                :arrow_down:
 
-<p style="text-align: center">limite=10</p>
+<p style="text-align:center">limite=10</p>
 
 ​                                                                                               :arrow_down:
 
-<p style="text-align: center;">numero=limite</p> 
+<p style="text-align:center;">numero=limite</p> 
 
 ​                                                                   False  :arrow_down:               :arrow_lower_right:True-Saída:"contagem atual: numero=numero +1
 
