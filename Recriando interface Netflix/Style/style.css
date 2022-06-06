@@ -1,0 +1,111 @@
+/*Study more about flexbox display, wrappers and containers*/
+
+:root { /*In here we are setting the value of CSS var's, which in here represent the basic colors of the webpage. These vars should be on the top of the CSS page */
+  --vermelho: #E50914;
+  --preta: #141414;
+
+}
+
+
+* { /*Setting reset for CSS*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*elements width/height will be limited to the boxe's border*/
+}
+
+/*BASIC ELEMENTS*/
+
+body {
+  background: var(--preta); /*In here we can see the usage of the abovementioned var, showing how useful it is.*/
+  font-family: 'Arial', Times, serif; /*Main fonts*/
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/index.html/Breaking-bad.jpg'); /*Adds a contrast on the image, as if we were adding up a cover of black color over it*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.nav {
+  background-color:black;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /*Creates a space between the first child of the container and the second one*/
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px; /*Adding space between the links*/
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*MAIN MOVIE*/
+
+.main-movie {
+  font-size: 16px;
+  display: flex; /*it alligns the elements*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /*Elements will be displayed from the left to the right side of the screen*/
+  margin-top: 10%;
+}
+
+.title {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, .50);
+  color: white;
+
+  padding: 15px 40px; /*copes with the internal space of the element - up,down and left,right*/
+  margin-top: 2%;
+  margin-right: 15px; /*Adding space between the buttons*/
+  font-size: 12px;
+  transition: .3s ease all; /*When hovering the button the transition will ease the color change. It's a delay*/
+  border-radius: 10px;
+}
+
+button:hover {
+
+  background-color: white;
+  color: black;
+  cursor: pointer; /*shows the user the button is clickable*/
+}
+
+.container {
+  margin-left: 30px;
+}
+
+.main-movie .container {
+  max-width: 60%
+}
+
+.description {
+  margin-top: 4%;
+}
+
+.carousel-movies {
+  height: 100%;
+  width: 100%;
+  margin-top: 20%;
+}
+
+

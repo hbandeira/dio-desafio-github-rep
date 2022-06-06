@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+    <title>Netflix clone</title>
+    <!--Adding Owl Css - Even though jQuery is not as essential as it used to be-->
+    <link rel="stylesheet" href="/Style/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Style/owl.theme.default.min.css"/>
+
+    <!--Responsiveness-->
+    <link rel="stylesheet" href="/Style/responsive.css">
+  </head>
+
+  <body>
+      <header class="nav">
+        <div class="container">
+          <h2 class="logo">NETFLIX</h2>
+            <nav>
+              <a href="#">Início</a> <!--In order to copy and paste a chunk of code, press alt + shift + arrow down simuntaneously-->
+              <a href="#">Séries</a>
+              <a href="#">Filmes</a>
+              <a href="#">Documentários</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="main-movie"> <!--By typing div + . + the class name I code faster-->
+          <div class="container">
+            <h3 class="title">BREAKING BAD</h3>
+            <p class="description">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.</p>
+            
+            <div class="buttons">
+              <button role="button" class="button"> <!--some cell phones may not understand the role of the function, which is why we describe its role-->
+                <i class="fa-solid fa-play"></i>
+                ASSISTIR AGORA
+              </button>
+              <button role="button" class="button">
+                <i class="fa-solid fa-circle-info"></i>
+                MAIS INFORMAÇÕES
+              </button>
+            </div>
+         
+          </div>
+
+        </div>
+      </main>
+
+      <!--Backend helps displaying this content more appropriately, though it is possible to do it manually through front-end-->
+
+      <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+
+          <div class="item">
+            <img class="box-movie" src="/images/Demon.jpg" alt="A poster of Demon Slayer movie" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/Peaky.jpg" alt="A poster of Peaky Blinders" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/Planeta.jpg" alt="A poster of the Prehistoric planet" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/Silverton.jpg" alt="A poster of Silverton movie" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/The-man.jpg" alt="A poster of The man who fell to Earth movie" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/Jurassic World.jpg" alt="A poster of Jurassic World movie" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/Brothers.jpg" alt="A poster of Brothers movie" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/Massacre.jpg" alt="A poster of The Texas Chain saw Massacre movie" srcset="">
+          </div>
+
+          <div class="item">
+            <img class="box-movie" src="/images/Blitz.jpg" alt="A poster of Blitz movie" srcset="">
+          </div>
+
+        </div>
+      </div>
+
+
+<!--It is recommended to add the Js in the end of the HTML file, as there may be a bug if this order is not respected-->
+      <script src="https://kit.fontawesome.com/d3fc83f1a6.js" crossorigin="anonymous"></script> <!--Link leads to the cloud where the icons are stored-->
+      <script src="js/owl/jquery.min.js"></script>
+      <script src="js/owl/owl.carousel.min.js"></script>
+      <script src="js/owl/setup.js"></script>
+
+    </body>
+  </html>

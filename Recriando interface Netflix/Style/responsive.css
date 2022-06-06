@@ -1,0 +1,16 @@
+@media screen and (max-width: 700px){  /*Adding conditions which will only be applied when the width is lower than 700px*/
+  header .container {
+    display: flex;
+    flex-direction: column; /*Useful to reorganize display when in a reduced scren*/
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 900px){ /*Adding conditions which will only be applied if the width is 900px or above*/
+  .description, .main-movie, .carousel-movies {
+    width: 100%;
+  }
+}
+
+
